@@ -15,7 +15,8 @@ autoencoder = LitAutoEncoder()
 # most basic trainer, uses good defaults
 # (auto-tensorboard, checkpoints, logs, and more)
 # trainer = pl.Trainer(gpus=8) (if you have GPUs)
-trainer = pl.Trainer(gpus=[0, 1], num_nodes=1, accelerator='dp', max_epochs=50)
+trainer = pl.Trainer(gpus=[0, 1], num_nodes=1, accelerator='dp',
+                     max_epochs=200, log_every_n_steps=1)
 trainer.fit(autoencoder, train_loader)
 
 # train on TPUs using 16 bit precision
