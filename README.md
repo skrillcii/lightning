@@ -1,9 +1,9 @@
-# README.md
+# Pytorch Lightning Workspace
 
 This is Pytorch-lightning workspace to understand the framework and workflow.
 Including production capbability through torchscript, onnx and distributed computation.
 
-## Installation
+## Prerequisite
 
 * [pytorch-lightning: Official Website](https://www.pytorchlightning.ai/)
 * [pytorch-lightning: GitHub](https://github.com/PyTorchLightning/pytorch-lightning)
