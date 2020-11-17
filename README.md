@@ -1,12 +1,13 @@
 # Pytorch Lightning Workspace
 
-This is Pytorch-lightning workspace to understand the framework and workflow.
+This is Pytorch Lightning workspace to understand the framework and workflow.
 Including production capbability through torchscript, onnx and distributed computation.
 
 ## Prerequisite
 
-* [pytorch-lightning: Official Website](https://www.pytorchlightning.ai/)
-* [pytorch-lightning: GitHub](https://github.com/PyTorchLightning/pytorch-lightning)
+PyTorch Lightning
+* [Official Website](https://www.pytorchlightning.ai/)
+* [GitHub](https://github.com/PyTorchLightning/pytorch-lightning)
 
 ```
 pip3 install torch torchvision pytorch-lightning
