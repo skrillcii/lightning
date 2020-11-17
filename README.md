@@ -5,23 +5,12 @@ Including production capbability through torchscript, onnx and distributed compu
 
 ## Installation
 
-* [pytorch-lightning:Main](https://www.pytorchlightning.ai/)
-* [pytorch-lightning:GitHub](https://github.com/PyTorchLightning/pytorch-lightning)
-
-
-```
-pip install foo
-```
-
-## Usage
+* [pytorch-lightning: Official Website](https://www.pytorchlightning.ai/)
+* [pytorch-lightning: GitHub](https://github.com/PyTorchLightning/pytorch-lightning)
 
 ```
-import foo
-
-foo.method('word') # returns 'word'
-foo.method('fast') # returns 'fast'
-foo.method('cool') # returns 'cool'
+pip3 install torch torchvision pytorch-lightning
 ```
 
 ## References
-[URL](https://)
+[Lightning in 2 steps](https://pytorch-lightning.readthedocs.io/en/stable/new-project.html)
